@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: azure;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: azure;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(105, 145, 145);
+}
+
+.header{
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+    color: azure;
+}
+.header h1{
+    display: inline-block;
+    font-size: 48px;
+}
+
+div.profile_image {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+.profile_image img{
+    float:left;
+}
+img {
+    
+    width: 175px;
+    height: 150px;
+    background-color: grey;
+}
+
+
+.search_links{
+    padding-top: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: azure;
+}
+
+.search_links ul{
+    list-style-type: none;
+}
+
+.search_links ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.About_Me {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    flex-basis: auto;
+    border: 12px;
+    border-color: azure;
+    border-style: solid;
+}
