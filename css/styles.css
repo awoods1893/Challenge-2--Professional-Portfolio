@@ -3,46 +3,61 @@
     padding: 0;
     margin: 0;
 }
-p{
+p, li{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: azure;
+    color: black;
 }
 
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: azure;
+    color: black;
     font-weight: bold;
 }
 
 body {
-    background-color: rgb(105, 145, 145);
+    background-color: azure;
 }
 
 .header{
     padding-left: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: cadetblue;
-    color: azure;
+    background-color: azure;
+    color: black;
 }
 .header h1{
-    display: inline-block;
+    
     font-size: 48px;
+    text-align: center;
+}
+
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 212px;
+    height: 320px;
 }
 
 div.profile_image {
     vertical-align: top;
     display: inline-block;
-    text-align: center;
-    width: 120px;
+    
+   
 }
 .profile_image img{
     float:left;
 }
-img {
+.Work img {
     
+    width: 475px;
+    height: 450px;
+    background-color: grey;
+}
+
+img{
     width: 175px;
     height: 150px;
-    background-color: grey;
+    background-color: grey;   
 }
 
 
@@ -51,7 +66,7 @@ img {
     margin-right: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: azure;
@@ -66,12 +81,45 @@ img {
     margin-left: 25px;
 }
 
-.About_Me {
+
+
+.About_Me{
+      display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    flex-basis: auto;
+    padding-top: 3.3vw;
+    padding-bottom: 3.3vw;
+    min-height: 33vh;
+    width: 100%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.Work {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
     flex-basis: auto;
-    border: 12px;
-    border-color: azure;
-    border-style: solid;
+    
+    padding-top: 3.3vw;
+    padding-bottom: 3.3vw;
+    min-height: 33vh;
+    width: 100%;
+    
+    padding-right: 4vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    }
+
+.Contact_Me li, h2{
+  
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    box-sizing: border-box; 
 }
