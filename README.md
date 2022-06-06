@@ -15,3 +15,7 @@ THEN that application's image should be larger in size than the others
 THEN I am taken to that deployed application
 - WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+
+[Website URL](https://awoods1893.github.io/Challenge-2--Professional-Portfolio/)
+
+![Screenshot](./images/Screenshot%202022-06-05%20220144.png)
